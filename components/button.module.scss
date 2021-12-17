@@ -1,0 +1,13 @@
+.btn {
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem;
+    border: 0;
+    color: black;
+    &.inverted {
+        background-color: black;
+        border: 1px solid white;
+        text-transform: uppercase;
+        color: white;
+    }
+}
